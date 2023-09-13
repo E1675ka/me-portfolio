@@ -1,0 +1,192 @@
+/* App.css */
+@import "font-awesome/css/font-awesome.min.css";
+
+body {
+  background-color: gray;
+  overflow-x: hidden;
+}
+nav {
+  background-color: #000000;
+  opacity: 0.7;
+  padding: 1rem;
+}
+.nav-left-side {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  column-gap: 30px;
+}
+
+h2:hover,
+h3:hover {
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  color: rgb(6, 227, 175);
+  margin-left: 12px;
+  transform: scale(1.01);
+}
+img {
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+  opacity: 0.5;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+}
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes Lines {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.main-container {
+  display: flex;
+
+  position: relative;
+}
+main {
+  font-family: sans-serif;
+  background-color: gray;
+}
+.header {
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  right: 0px;
+  top: 100px;
+  color: white;
+  z-index: 1;
+  font-size: 50px;
+  text-decoration: none;
+}
+.buttons {
+  position: absolute;
+  border-color: antiquewhite;
+  padding: 0.5rem;
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  z-index: 1;
+}
+.buttons a {
+  color: rgb(32, 31, 31);
+  font-weight: bold;
+  text-decoration: none;
+}
+.buttons:hover {
+  background-color: rgb(125, 124, 124);
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+.card {
+  box-shadow: 1px 1px 2px 2px rgb(74, 72, 72);
+  padding: 1rem;
+  border-radius: 10px 2px;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 1px 1px 2px 2px rgb(3, 251, 214);
+  transform: scale(1.01);
+}
+.card-img img {
+  width: 100px;
+  height: 200px;
+  margin: 1rem;
+}
+.logo-img:hover {
+  box-shadow: 1px 1px 1px 2px aqua;
+  transform: scale(1.1);
+  border-radius: 2px 21px;
+}
+.card-img {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 100%;
+  cursor: pointer;
+}
+.figma {
+  padding: 10px;
+  animation: rotate 4s forwards infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  22% {
+    transform: rotate(90deg);
+  }
+  44% {
+    transform: rotate(180deg);
+  }
+  66% {
+    transform: rotate(270deg);
+  }
+  88% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.about-p {
+  font-size: 26px;
+}
+.fa {
+  font-size: 40px;
+  animation: scale 2s forwards infinite;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scaley(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.footer {
+  background-color: #373738;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
