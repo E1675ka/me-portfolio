@@ -8,7 +8,7 @@ export function Projects() {
         <a href="https://ask-web-hosting-site.netlify.app/">
           <img
             className="ask-image"
-            src="/images/A.S.K hosting website.png"
+            src="/images/ask-hosting-website.png"
             alt="web hosting clone pic"
           />
           <button>web hosting clone</button>
