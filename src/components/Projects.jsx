@@ -14,7 +14,7 @@ export function Projects() {
           <button>web hosting clone</button>
         </a>
         <a href="https://frontend-gpt3-web-landing-page-clone.netlify.app/">
-          <img className="gpt" src="/images/React App.png" alt="gpt3 picture" />
+          <img className="gpt" src="/images/React-App.png" alt="gpt3 picture" />
           <button>gpt3 clone landing page</button>
         </a>
       </div>
