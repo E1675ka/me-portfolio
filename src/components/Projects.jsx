@@ -9,7 +9,7 @@ export function Projects() {
           <img
             className="ask-image"
             src="public/images/2023-09-25 21_59_39-A.S.K hosting website.png"
-            alt="web hosting clone"
+            alt="web hosting clone pic"
           />
           <button>web hosting clone</button>
         </a>
@@ -17,7 +17,7 @@ export function Projects() {
           <img
             className="gpt"
             src="public/images/2023-09-25 23_52_51-React App.png"
-            alt="web hosting clone"
+            alt="gpt3 picture"
           />
           <button>gpt3 clone landing page</button>
         </a>
