@@ -1,0 +1,53 @@
+.services-section {
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+.services-section:hover {
+  text-decoration: underline;
+  transition: 1s;
+  text-underline-offset: 16px;
+  text-decoration-color: rgb(85, 166, 206);
+}
+.logo-title {
+  background-image: radial-gradient(circle, rgb(5, 35, 71), rgb(86, 176, 177));
+  -webkit-background-clip: text; /* For compatibility with some browsers */
+  background-clip: text;
+  color: transparent;
+  /* Make the text color transparent (for Safari) */
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+  font-size: 42px;
+  font-weight: bolder;
+}
+.logos {
+  background-color: rgba(13, 57, 57, 0.82);
+}
+.logo-title:hover {
+  background-image: radial-gradient(
+    circle,
+    rgb(85, 123, 171),
+    rgb(123, 134, 134)
+  );
+  -webkit-background-clip: text; /* For compatibility with some browsers */
+  background-clip: text;
+  color: transparent;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 6rem;
+}
+.about-title {
+  color: rgb(8, 145, 155);
+  text-underline-offset: 13px;
+  text-decoration: none;
+}
+.about-p {
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+}

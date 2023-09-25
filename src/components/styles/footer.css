@@ -1,0 +1,31 @@
+.fa {
+  font-size: 40px;
+  animation: scale 2s forwards infinite;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scaley(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.footer {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(35, 78, 87),
+    rgb(78, 135, 145)
+  );
+  padding: 1rem;
+
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-nav li {
+  padding: 6px;
+}

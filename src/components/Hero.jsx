@@ -1,3 +1,4 @@
+import "./styles/hero.css";
 export default function Hero() {
   return (
     <>
@@ -9,7 +10,7 @@ export default function Hero() {
           href="https://1drv.ms/i/s!Alwyx9XDghO7glIhtPh7xQF_GTuL?e=UqgcoW"
           download
         >
-          Download Resume
+          Download Resume/CV
         </a>
       </button>
     </>

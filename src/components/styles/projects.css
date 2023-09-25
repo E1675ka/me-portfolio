@@ -1,0 +1,37 @@
+.projects {
+  display: grid;
+  /* flex-direction: row; */
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.projects-h1 {
+  margin: 3rem;
+  color: rgb(17, 164, 164);
+}
+.projects-h1:hover {
+  color: rgb(12, 210, 210);
+}
+.projects button {
+  display: flex;
+  border-color: antiquewhite;
+  padding: 0.9rem;
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  z-index: 1;
+  width: 250px;
+}
+.ask-image {
+  width: 500px;
+  border-radius: 12px;
+}
+.gpt {
+  border-radius: 12px;
+
+  width: 540px;
+}

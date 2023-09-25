@@ -19,4 +19,8 @@ export default [
     id: 5,
     img: "../../images/github-fill.svg",
   },
+  {
+    id: 6,
+    img: "../../images/figma-light.svg",
+  },
 ];

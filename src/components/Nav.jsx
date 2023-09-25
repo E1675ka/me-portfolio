@@ -1,7 +1,8 @@
+import "./styles/nav.css";
 export default function Nav() {
   return (
     <>
-      <nav>
+      <nav className="nav-container">
         <ul>
           <li>
             <a href="">Home</a>
@@ -9,10 +10,10 @@ export default function Nav() {
 
           <div className="nav-left-side">
             <li>
-              <a href="https://ask-web-hosting-site.netlify.app/">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="./body.jsx/about">About</a>
+              <a href="#about">About</a>
             </li>
           </div>
         </ul>

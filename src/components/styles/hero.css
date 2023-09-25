@@ -1,0 +1,57 @@
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  margin-bottom: 13rem;
+}
+.dp-img {
+  border: 1px double beige;
+  margin: 1rem;
+  position: relative;
+}
+.dp-img img {
+  height: 600px;
+  width: 600px;
+  opacity: 0.85;
+}
+.hero-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  color: white;
+  max-width: 800px;
+  font-size: 50px;
+  text-decoration: none;
+}
+.buttons {
+  /* position: absolute; */
+  border-color: antiquewhite;
+  padding: 0.9rem;
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  z-index: 1;
+  width: 250px;
+}
+.buttons a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.buttons a:hover {
+  color: aqua;
+  font-weight: bold;
+  text-decoration: none;
+}
+.buttons:hover {
+  background-color: rgb(125, 124, 124);
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
